@@ -13,7 +13,8 @@ if ((getPlayerUID player) in AdminList) then { // Admins
 	epochmenustart =
 	[
 	["",true],
-		["-- Epoch Admin Tools (Level: Admin) --", [], "", -5, [["expression", ""]], "1", "0"],
+		["Shadow Squad Admin Tools (Sr. Staff)", [], "", -5, [["expression", ""]], "1", "0"],
+		["F1=God F9=MapTp F10=TP To Player F11=TP Player", [], "", -5, [["expression", ""]], "1", "0"],
 		["Admin Menu >>", [], "#USER:AdminMenu", -5, [["expression", ""]], "1", "1"],
 		["Vehicle Menu >>",[],"#USER:VehicleMenu",-5,[["expression",""]],"1","1"],	
 		["Crate Menu >>",[],"#USER:CrateMenuLocal",-5,[["expression",""]],"1","1"],
@@ -28,7 +29,7 @@ if ((getPlayerUID player) in ModList) then { // Admin Level 3
 	epochmenustart =
 	[
 	["",true],
-		["-- Epoch Admin Tools (Level: Mod) --", [],"", -5, [["expression", ""]], "1", "0"],
+		["Shadow Squad Admin Tools (Jr. Staff)", [],"", -5, [["expression", ""]], "1", "0"],
 		["Mod Menu >>", [], "#USER:ModMenu", -5, [["expression", ""]], "1", "1"],
 		["Temporary Vehicle Menu >>", [], "#USER:VehicleTempMenu", -5, [["expression", ""]], "1", "1"],		
 		["Skin Change Menu >>", [], "#USER:AdminSkinsMenu", -5, [["expression", ""]], "1", "1"],
@@ -104,9 +105,9 @@ HumanityMenu =
 TeleportMenu =
 [
 ["",true],
-	["Teleport (F1)",[],"", -5,[["expression", format[_EXECscript1,"Teleport.sqf"]]], "1", "1"],
-	["Teleport To Me (F2)",[],"", -5, [["expression", format[_EXECscript1, "TPtoME.sqf"]]], "1", "1"],
-	["Teleport To Player (F3)",[],"", -5, [["expression", format[_EXECscript1, "TpToPlayer.sqf"]]], "1", "1"],
+	["Teleport (F9)",[],"", -5,[["expression", format[_EXECscript1,"Teleport.sqf"]]], "1", "1"],
+	["Teleport To Me (F10)",[],"", -5, [["expression", format[_EXECscript1, "TPtoME.sqf"]]], "1", "1"],
+	["Teleport To Player (F11)",[],"", -5, [["expression", format[_EXECscript1, "TpToPlayer.sqf"]]], "1", "1"],
 		["", [], "", -5, [["expression", ""]], "1", "0"],
 		["Main Menu", [20], "#USER:epochmenustart", -5, [["expression", ""]], "1", "1"]
 ];

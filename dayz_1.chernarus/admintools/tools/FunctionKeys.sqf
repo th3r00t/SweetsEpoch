@@ -14,15 +14,15 @@
 	To disable the use of a single F key simply comment out the line by add // at the start of the line
 	To remove all function key support simply delete or comment out the lines in this file.
 */
-F1_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 59) then {[] execVM ""admintools\tools\Teleport.sqf"";};"];
-F2_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 60) then {[] execVM ""admintools\tools\TPtoME.sqf"";};"];
-F3_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 61) then {[] execVM ""admintools\tools\TpToPlayer.sqf"";};"];
+F1_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 59) then {[] execVM ""admintools\tools\AdminMode.sqf"";};"];
+//F2_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 60) then {[] execVM ""admintools\tools\TPtoME.sqf"";};"];
+//F3_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 61) then {[] execVM ""admintools\tools\TpToPlayer.sqf"";};"];
 // F4 is reserved for AdminMode.sqf and modMode.sqf
 // F5 is reserved for spectate.sqf
 // F6_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 64) then {[] execVM ""admintools\tools\FILENAMEHERE.sqf"";};"];
 // F7_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 65) then {[] execVM ""admintools\tools\FILENAMEHERE.sqf"";};"];
 // F8_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 66) then {[] execVM ""admintools\tools\FILENAMEHERE.sqf"";};"];
-// F9_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 67) then {[] execVM ""admintools\tools\FILENAMEHERE.sqf"";};"];
-// F10_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 68) then {[] execVM ""admintools\tools\FILENAMEHERE.sqf"";};"];
-// F11_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 87) then {[] execVM ""admintools\tools\FILENAMEHERE.sqf"";};"];
+ F9_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 67) then {[] execVM ""admintools\tools\Teleport.sqf"";};"];
+ F10_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 68) then {[] execVM ""admintools\tools\Teleport.sqf"";};"];
+ F11_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 87) then {[] execVM ""admintools\tools\TpToPlayer.sqf"";};"];
 // F12_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 88 then {[] execVM ""admintools\tools\FILENAMEHERE.sqf"";};"];
