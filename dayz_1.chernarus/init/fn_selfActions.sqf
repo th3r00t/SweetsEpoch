@@ -448,10 +448,10 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 	} else {
 		player removeAction s_player_studybody;
 		s_player_studybody = -1;
-		player removeAction s_clothes;
-    s_clothes = -1;
 	};
-
+player removeAction s_clothes;
+    s_clothes = -1;
+	
 	// logic vars
 	_player_cook = false;
 	_player_boil = false;
