@@ -13,9 +13,9 @@ if ((getPlayerUID player) in AdminList) then { // Admins
 	epochmenustart =
 	[
 	["",true],
-		["<t color=""#800000"">Shadow Squad Admin Tools (Sr. Staff)</t>", [], "", -5, [["expression", ""]], "1", "0"],
-		["<t color=""#00CC00"">F1=God F9=MapTp </t>", [], "", -5, [["expression", ""]], "1", "0"],
-		["<t color=""#00CC00"">F10=TP To Player F11=TP Player</t>", [], "", -5, [["expression", ""]], "1", "0"],
+		[("<t color=""#800000"">"+("Shadow Squad Admin Tools (Sr. Staff)")+"</t>"), [], "", -5, [["expression", ""]], "1", "0"],
+		[("<t color=""#00CC00"">"+("F1=God F9=MapTp")+"</t>"), [], "", -5, [["expression", ""]], "1", "0"],
+		[("<t color=""#00CC00"">"+("F10=TP To Player F11=TP Player")+"</t>"), [], "", -5, [["expression", ""]], "1", "0"],
 		["Admin Menu >>", [], "#USER:AdminMenu", -5, [["expression", ""]], "1", "1"],
 		["Vehicle Menu >>",[],"#USER:VehicleMenu",-5,[["expression",""]],"1","1"],	
 		["Crate Menu >>",[],"#USER:CrateMenuLocal",-5,[["expression",""]],"1","1"],
