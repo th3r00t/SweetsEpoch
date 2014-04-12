@@ -4,7 +4,7 @@
  * Thanks to everyone who has provided other scripts of the same format, without you I would not have been able to make this.
  */
 
-diag_log ( "[SDS] Starting Trader City Safezone Commander!" );
+diag_log ( "[SDS] Entering Trader City Safezone " );
  
 if ( isDedicated || isServer ) exitWith {diag_log ( "Error: Attempting to start SDS products on a server where it should not be!" );}; 
 
@@ -28,7 +28,7 @@ SDS_safeZone_Players_DisableWeaponFiring = true;			//Should players not be able 
 disableSerialization;
 
 waitUntil {!isNil "dayz_animalCheck"};
-if ( SDS_safeZoneMessages ) then { systemChat ( "[SDS] Trader Zone Commander Loaded!" ); };
+if ( SDS_safeZoneMessages ) then { systemChat ( "[SDS] Trade Protection Enabled!" ); };
 
 _inVehicle = objNull;
 _inVehicleLast = objNull;
@@ -38,7 +38,7 @@ while {true} do {
 	waitUntil { !canBuild };
 
 	_inSafezoneFinished = false;
-	if ( SDS_safeZoneMessages ) then { systemChat ("[SDS] Entering Trader Area - God Mode Enabled"); };
+	if ( SDS_safeZoneMessages ) then { systemChat ("[SDS] Entering Trader - God Mode Enabled"); };
 	_thePlayer = player;
 
 	if ( SDS_safeZoneGodmode ) then

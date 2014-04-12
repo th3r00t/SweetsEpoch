@@ -84,3 +84,5 @@ execVM  "config\modconfig.sqf";
 [] execVM "admintools\Activate.sqf";
 
 [] execvm 'SDS\sds_SafeZoneCommander.sqf';
+
+execVM "R3F_ARTY_AND_LOG\init.sqf"

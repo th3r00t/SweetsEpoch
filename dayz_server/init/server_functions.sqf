@@ -938,5 +938,3 @@ server_setLocalObjVars = {
 
 //Mod Loader
 [] execVM "\z\addons\dayz_server\config\modconfig.sqf";
-
-#include "\Antihack\SurvivalAntihack.sqf"
