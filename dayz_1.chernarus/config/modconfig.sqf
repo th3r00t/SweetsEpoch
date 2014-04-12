@@ -21,5 +21,5 @@
         player removeAction s_clothes;
         s_clothes = -1;
     };
-	player removeAction s_clothes;
-    s_clothes = -1;
+	/* player removeAction s_clothes;
+    s_clothes = -1; */

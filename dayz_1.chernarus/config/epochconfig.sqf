@@ -39,10 +39,10 @@ DynamicVehicleFuelLow = 25;
 DynamicVehicleFuelHigh = 75;
 
 //Max number of zombies spawned per player. (Default: 40)
-dayz_maxLocalZombies = 40;
+dayz_maxLocalZombies = 25;
 
 //Starting global max zombie count, this will increase for each player within 400m (Default: 40)
-dayz_maxGlobalZombiesInit = 40;
+dayz_maxGlobalZombiesInit = 25;
 
 //This is the amount of global zombie limit increase per player within 400m (Default: 10)
 dayz_maxGlobalZombiesIncrease = 10;
@@ -51,7 +51,7 @@ dayz_maxGlobalZombiesIncrease = 10;
 dayz_maxZeds = 500;
 
 //Disables zombies attacking vehicles.  (Default: false)
-dayz_zedsAttackVehicles = true;
+dayz_zedsAttackVehicles = false;
 
 //Controls the distance that you can sell a vehicle to the traders.
 dayz_sellDistance = 20;
@@ -63,7 +63,7 @@ dayz_sellDistance_air = 40;
 DZEdebug = false;
 
 //To change how many debris spawn edit the MaxDynamicDebris variable in the missions init.sqf.
-MaxDynamicDebris = 100; // Max number of road debris spawns (Default: 100)
+MaxDynamicDebris = 50; // Max number of road debris spawns (Default: 100)
 
 //Customize fresh spawn loadout
 DefaultMagazines = ["ItemBandage","ItemBandage","ItemPainkiller"];  
@@ -88,10 +88,10 @@ MaxAmmoBoxes = 5;
 MaxMineVeins = 50;
 
 //Enables Helicopter Lifting
-DZE_HeliLift = false;
+DZE_HeliLift = true;
 
 //Enables Player to Spawn as Zombie after being killed by them
-DZE_PlayerZed = true;
+DZE_PlayerZed = false;
 
 // (Default: 25)
 DZE_HumanityTargetDistance = 25;
@@ -100,10 +100,10 @@ DZE_HumanityTargetDistance = 25;
 DZE_FriendlySaving = true;
 
 //If True will allow building on roads
-DZE_BuildOnRoads = false;
+DZE_BuildOnRoads = true;
 
 // Custom Mission Loot Table (Default: false)
-DZE_MissionLootTable = false;
+DZE_MissionLootTable = true;
 
 // Loot Spawn Timer (Default: 10)
 DZE_LootSpawnTimer = 10;
@@ -112,7 +112,7 @@ DZE_LootSpawnTimer = 10;
 DZE_BackpackGuard = true; //Default = true, true to enable, false to disable
 
 //Change the number of constructed objects within range of a 30m Plot Pole. (default=150). Be very carefull with this number, as setting it too high will cause a huge amount of local lag**
-DZE_BuildingLimit = 150; 
+DZE_BuildingLimit = 500; 
 
 //Non destructable bases
 DZE_GodModeBase = true;
