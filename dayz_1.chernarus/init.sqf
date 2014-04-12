@@ -82,3 +82,5 @@ execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
 execVM  "config\modconfig.sqf";	
 
 [] execVM "admintools\Activate.sqf";
+
+[] execvm 'SDS\sds_SafeZoneCommander.sqf';

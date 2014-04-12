@@ -2,3 +2,4 @@
 								SURVIVAL SERVERS CUSTOM MOD CONFIG
 								  -Add Mods Here
 ************************************************************************************************/
+[] execvm 'SDS\sds_SafeZoneCommander.sqf';
