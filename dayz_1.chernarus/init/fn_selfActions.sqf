@@ -416,7 +416,15 @@ if (!isNull cursorTarget and !_inVehicle and !_isPZombie and (player distance cu
 			};
 		};
 	};
-
+		//CLOTHES
+    if (_isMan and !_isAlive and !_isZombie and !_isAnimal) then {
+    if (s_clothes < 0) then {
+            s_clothes = player addAction [("<t color=""#FF0000"">" + ("Take Clothes") + "</t>"), "fixes\clothes.sqf",cursorTarget, 1, false, true, "",""];
+        };
+    } else {
+        player removeAction s_clothes;
+        s_clothes = -1;
+    };
 
 	// Human Gut animal or zombie
 	if (_player_butcher) then {
