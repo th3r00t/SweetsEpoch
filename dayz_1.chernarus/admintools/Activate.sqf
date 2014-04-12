@@ -14,7 +14,7 @@ if ((getPlayerUID player) in AdminList || (getPlayerUID player) in ModList) then
 				if (_idx == -1) then
 				{
 					[]execVM "admintools\tools\FunctionKeys.sqf";
-					_idx = (vehicle player) addaction [("<t color=""#585858"">" + ("SDS Menu") +"</t>"),"admintools\AdminToolsMain.sqf","",0,false,true,"",""];
+					_idx = (vehicle player) addaction [("<t color=""#800000"">" + ("SDS Menu") +"</t>"),"admintools\AdminToolsMain.sqf","",0,false,true,"",""];
 					_veh = vehicle player;
 				};
 				if (_veh != vehicle player) then

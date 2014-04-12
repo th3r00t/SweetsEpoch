@@ -23,6 +23,6 @@ F1_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1
 // F7_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 65) then {[] execVM ""admintools\tools\FILENAMEHERE.sqf"";};"];
 // F8_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 66) then {[] execVM ""admintools\tools\FILENAMEHERE.sqf"";};"];
  F9_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 67) then {[] execVM ""admintools\tools\Teleport.sqf"";};"];
- F10_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 68) then {[] execVM ""admintools\tools\Teleport.sqf"";};"];
+ F10_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 68) then {[] execVM ""admintools\tools\TPtoME.sqf"";};"];
  F11_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 87) then {[] execVM ""admintools\tools\TpToPlayer.sqf"";};"];
 // F12_KEY = (findDisplay 46) displayAddEventHandler ["KeyDown","if ((_this select 1) == 88 then {[] execVM ""admintools\tools\FILENAMEHERE.sqf"";};"];
